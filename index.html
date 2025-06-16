@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>arnxv | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: 'JetBrains Mono', monospace;
+      }
+      section {
+        scroll-margin-top: 80px;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-gray-950 z-50 shadow-md">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="text-xl font-bold text-indigo-400">arnxv</div>
+        <div class="space-x-6 text-sm">
+          <a href="#about" class="hover:text-indigo-400">About</a>
+          <a href="#projects" class="hover:text-indigo-400">Projects</a>
+          <a href="#contact" class="hover:text-indigo-400">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex items-center justify-center text-center" id="hero">
+      <div>
+        <h1 class="text-5xl font-bold mb-4 text-indigo-400">Hey, I'm arnxv</h1>
+        <p class="text-gray-300 text-xl max-w-md mx-auto">13 y/o Developer • Minecraft • Discord Bots • Learning & Building</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 px-6 max-w-4xl mx-auto" id="about">
+      <h2 class="text-3xl font-semibold mb-6 border-b border-gray-700 pb-2">About Me</h2>
+      <p class="text-gray-400 leading-relaxed">
+        I'm a 13-year-old dev who loves building useful tools, bots, and websites. I enjoy coding in JavaScript, Python, and HTML/CSS. I’ve built Discord bots, Minecraft plugins, and fun automations.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-20 px-6 bg-gray-800" id="projects">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-semibold mb-6 border-b border-gray-600 pb-2">Projects</h2>
+        <div class="space-y-6">
+          <div class="bg-gray-900 p-4 rounded shadow hover:shadow-xl">
+            <a href="https://github.com/arnxv-coder/discord-alt-24-7" class="text-xl font-bold text-indigo-300 hover:underline">
+              🟢 Keep Discord Account 24/7
+            </a>
+            <p class="text-gray-400 mt-1">Keep your alt account online 24/7 using a smart hosting trick.</p>
+          </div>
+          <div class="bg-gray-900 p-4 rounded shadow hover:shadow-xl">
+            <a href="https://github.com/arnxv-coder" class="text-xl font-bold text-indigo-300 hover:underline">
+              💰 PreX Coins Bot (Coming Soon)
+            </a>
+            <p class="text-gray-400 mt-1">Full-featured bot with currency, shop, cooldowns, and admin tools.</p>
+          </div>
+          <div class="bg-gray-900 p-4 rounded shadow hover:shadow-xl">
+            <a href="https://kind-nodes.arnxv.is-a.dev" class="text-xl font-bold text-indigo-300 hover:underline">
+              🌐 KindNodes
+            </a>
+            <p class="text-gray-400 mt-1">A simple web dashboard for Minecraft server hosting providers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 px-6 max-w-4xl mx-auto" id="contact">
+      <h2 class="text-3xl font-semibold mb-6 border-b border-gray-700 pb-2">Contact</h2>
+      <p class="text-gray-300 mb-2">📧 Email: <a href="mailto:arnav@arnxv.is-a.dev" class="text-indigo-400 hover:underline">arnav@arnxv.is-a.dev</a></p>
+      <p class="text-gray-300">💬 Discord: <code>@arnxv</code></p>
+    </section>
+
+    <footer class="py-6 text-center text-sm text-gray-500 border-t border-gray-700">
+      &copy; 2025 arnxv. Built with ❤️ and Tailwind CSS.
+    </footer>
+  </body>
+</html>
